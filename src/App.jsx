@@ -2,12 +2,12 @@ import Calculator from "./components/Calculator";
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center items-center mx-auto bg-slate-900">
+    <div className="flex items-center justify-center min-h-screen mx-auto bg-gradient-to-l from-gray-700 to-gray-900">
       <div>
-        <h1 className="flex justify-center text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+        <h1 className="flex justify-center text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-slate-200 to-slate-300">
           Calculadora
         </h1>
-        <div className="py-2">
+        <div className="py-4">
           <Calculator />
         </div>
       </div>
